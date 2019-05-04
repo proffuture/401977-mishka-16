@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Мишка-каталог</title>
+  <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+  <h1 class="visually-hidden">каталог товаров</h1>
+  <header class="main-header">
+    <a class="logotype">
+      <img src="http://placehold.it/86x35" alt="Логотип_мишки">
+    </a>
+    <nav class="main-navigation">
+      <button class="main-navigation__burger-btn">Закрыть</button>
+      <ul class="main-navigation__list">
+        <li class="main-navigation__item"><a href="#">Каталог товаров</a></li>
+        <li class="main-navigation__item"><a href="#">Вязание на заказ</a></li>
+        <li class="main-navigation__item"><a href="#">Поиск по сайту</a></li>
+        <li class="main-navigation__item"><a href="#">Корзина: пока пуста</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="main-catalog">
+    <h2 class="main-catalog__title">Каталог товаров</h2>
+    <div class="main-catalog__wrapper">
+      <article class="catalog-item">
+        <img class="catalog__img" src="http://placehold.it/260x195" alt="картинка_товара1">
+        <h3 class="catalog__title">Зайчик-попрыгайчик</h3>
+        <table class="catalog__table">
+          <td>Рост 30 см,</td>
+          <td>вес 200 г</td>
+        </table>
+        <span class="catalog__span-price">1 200 руб.</span>
+        <a class="wrapper-catalog__basket">
+          <img src="http://placehold.it/20x20" alt="кнопка_карзинки">
+        </a>
+      </article>
+      <article class="wrapper-catalog">
+        <img class="wrapper-catalog__img" src="http://placehold.it/260x195" alt="картинка_товара1">
+        <h3 class="wrapper-catalog__p">Корзинка для белья</h3>
+        <table class="catalog__table">
+          <td>Диаметр 15 см,</td>
+          <td>высота 10 см</td>
+        </table>
+        <span class="wrapper-catalog__span-price">690 руб.</span>
+        <a class="wrapper-catalog__basket">
+          <img src="http://placehold.it/20x20" alt="кнопка_карзинки">
+        </a>
+      </article>
+      <article class="wrapper-catalog">
+        <img class="wrapper-catalog__img" src="http://placehold.it/260x195" alt="картинка_товара1">
+        <h3 class="wrapper-catalog__p">Большая корзинка для игрушек</h3>
+        <table class="catalog__table">
+          <td>Диаметр 30 см,</td>
+          <td>высота 30 см</td>
+        </table>
+        <span class="wrapper-catalog__span-price">1 500 руб.</span>
+        <a class="wrapper-catalog__basket">
+          <img src="http://placehold.it/20x20" alt="кнопка_карзинки">
+        </a>
+      </article>
+    </div>
+  </section>
+  <section class="video">
+    <h2 class="video__title">Процесс производства</h2>
+    <video class="video__video" width="260" height="150" controls poster="video/ristretto.png">
+      <source class="video__source" src="video/ristretto.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+      Элемент video не поддерживается вашим браузером.
+    </video>
+    <p class="video__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+    <a class="btn" href="#">Сделать заказ</a>
+  </section>
+  <footer class="main-footer">
+    <ul class="main-footer__list">
+      <li class="main-footer__item"><a class="instagram" href="https://www.instagram.com">Инстаграм</a></li>
+      <li class="main-footer__item"><a class="facebook" href="https://www.facebook.com">Фейсбук</a></li>
+      <li class="main-footer__item"><a class="twitter" href="https://twitter.com">Твиттер</a></li>
+    </ul>
+    <h2 class="main-footer__title">Разработанно</h2>
+    <a class="main-footer__htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank"><img src="http://placehold.it/27x34" alt="Логотип htmlacademy"></a>
+  </footer>
+</body>
+
+</html>

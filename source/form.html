@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Мишка-формы</title>
+  <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+  <h1 class="visually-hidden">Форма заказа товара</h1>
+  <header class="main-header">
+    <a class="logotype">
+      <img src="http://placehold.it/86x35" alt="Логотип_мишки">
+    </a>
+    <nav class="main-navigation">
+      <button class="main-navigation__burger-btn">Закрыть</button>
+      <ul class="main-navigation__list">
+        <li class="main-navigation__item"><a href="#">Каталог товаров</a></li>
+        <li class="main-navigation__item"><a href="#">Вязание на заказ</a></li>
+        <li class="main-navigation__item"><a href="#">Поиск по сайту</a></li>
+        <li class="main-navigation__item"><a href="#">Корзина: пока пуста</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="maim-block-form">
+    <h2 class="maim-block-form__title">Вязание на заказ</h2>
+    <p class="maim-block-form__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+    <form class="forms" action="index.html" method="post">
+      <fieldset class="forms__type">
+        <legend class="forms__type forms__type--color">Тип</legend>
+        <input id="radio1" type="radio" name="name" checked>
+        <label for="radio1">Аксессуар для интерьера</label>
+        <input id="radio2" type="radio" name="name">
+        <label for="radio2">Детская игрушка</label>
+      </fieldset>
+      <fieldset class="forms__colors">
+        <legend class="forms__colors forms__colors--color">Цвет</legend>
+        <input id="checkbox1" type="checkbox" name="wight" checked>
+        <label for="checkbox1">Белый</label>
+        <input id="checkbox2" type="checkbox" name="gray" checked>
+        <label for="checkbox2">Серый</label>
+        <input id="checkbox3" type="checkbox" name="tiffany">
+        <label for="checkbox3">Тиффани</label>
+        <input id="checkbox4" type="checkbox" name="black">
+        <label for="checkbox4">Черный</label>
+        <input id="checkbox5" type="checkbox" name="pink">
+        <label for="checkbox5">Розовый</label>
+        <input id="checkbox6" type="checkbox" name="orange">
+        <label for="checkbox6">Оранжевый</label>
+      </fieldset>
+      <fieldset class="forms__data">
+        <legend class="forms__data forms__data--color">ФИО</legend>
+        <label for="first-name">Имя:</label>
+        <input id="first-name" type="text" name="Имя" placeholder="Введите ваше имя*">
+        <label for="last-name">Имя:</label>
+        <input id="last-name" type="text" name="Фамилия" placeholder="Укажите фамилию*">
+        <label for="last-name2">Имя:</label>
+        <input id="last-name2" type="text" name="Отчество" placeholder="Отчество, если желаете*">
+      </fieldset>
+      <fieldset class="forms__tel">
+        <legend class="forms__tel forms__tel--color">Тел</legend>
+        <input type="text" name="phone" placeholder="+7 XXX XXX XX XX*">
+      </fieldset>
+      <fieldset class="forms__mail">
+        <legend class="forms__mail forms__mail--color">E-mail</legend>
+        <input type="text" name="mail" placeholder="Ваш Email*">
+      </fieldset>
+      <legend class="">Доп</legend>
+      <fieldset class="forms__message">
+        <legend class="forms__message forms__message--color">Доп</legend>
+        <textarea rows="10" cols="45" name="text" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+      </fieldset>
+      <p class="forms__text">*Поля обязательны для заполнения</p>
+      <input class="btn" type="submit" value="Отправить">
+    </form>
+  </section>
+
+  <footer class="main-footer">
+    <ul class="main-footer__list">
+      <li class="main-footer__item"><a class="instagram" href="https://www.instagram.com">Инстаграм</a></li>
+      <li class="main-footer__item"><a class="facebook" href="https://www.facebook.com">Фейсбук</a></li>
+      <li class="main-footer__item"><a class="twitter" href="https://twitter.com">Твиттер</a></li>
+    </ul>
+    <h2 class="main-footer__title">Разработанно</h2>
+    <a class="main-footer__htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank"><img src="http://placehold.it/27x34" alt="Логотип htmlacademy"></a>
+  </footer>
+</body>
+
+</html>
